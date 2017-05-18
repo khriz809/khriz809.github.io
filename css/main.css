@@ -14,11 +14,13 @@ h1 {
 h3 {
 	color: black;
 	text-align: center;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
  ul{
 	Color: black;
 	margin-left: 20px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 p {
@@ -26,4 +28,5 @@ text-align: center;
 Font-size: 25 px;
 Font-size: 25 px;
 Font-size: 25 px;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }	
