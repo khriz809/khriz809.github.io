@@ -1,0 +1,28 @@
+body {
+	background-image: url(../images/Donuts.jpg);
+	background-repeat: repeat x;
+	background-color: #ffd699;
+    }
+
+h1 {
+    color: black;
+    margin-left: 20px;
+	text-align: center;
+}
+
+h3 {
+	color: black;
+	text-align: center;
+}
+
+ ul{
+	Color: black;
+	margin-left: 20px;
+}
+
+p {
+text-align: center;
+Font-size: 25 px;
+Font-size: 25 px;
+Font-size: 25 px;
+}	

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Donut Delights</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+	background-color: #bf8040;
+      text-align: center;
+	  color: black;
+      padding: 2	0px;
+      margin-bottom: 0;
+	  margin-top: 0px; margin-left: 40px; width: 1700px; height: 175px;  border: 3px solid black; padding: 2px;
+      border-radius: 0;
+    }
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set cream background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f9f2ec;
+      height: 100%;
+	  margin-top: 200px; margin-left: 300px; width: x; height: 450px;  border: 3px solid Black; padding: 2px;
+    }
+    
+    /* Set Bronze background color, black text and some padding */
+    footer {
+      background-color: #bf8040;
+      color: Black;
+      padding: 30px;
+	  margin-bottom: 20;
+      border-radius: 20;
+	  margin-top: 50px; margin-left: 10px; width: 1900px; height: 200px;  border: 3px solid Black; padding: 2px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html"><img src= "logo.jpg" alt="donuts delights" style="width:100px;height:100px;border:0;"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        
+        <li><a href="menu.html">menu</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact.html">contact us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>login</a></li>
+		<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> sign up</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-8 text-left"> 
+      
+	  <h1 style=" margin-top: 0px; margin-left: 450px; background-color: lightgrey; width: 800px; height: 100px;  border: 3px solid black; padding: 2px;">Donut Delights!</h1>
+      <p  style=" margin-top: 0px; margin-left: 300px; background-color: lightgrey; width: 1200px; height: 900px;  border: 3px solid black; padding: 2px; font-size: 35px; " >THE FINEST IN BREAKFAST AND COFFE SINCE 1971!</p>
+		<img src="coffee-and-chocolate.jpg" alt="edible" style=" margin-top: -900px; margin-left: 350px; width: 1100px;height: 630px;border: solid black;">
+      <hr>
+      <h3  style=" margin-top: -25px; margin-left: 550px; background-color: lightgrey; width: 600px; height: 100px;  border: 3px solid black; padding: 2px;">COME ON IN!!!<br></br> 2112 Main Street, Urbana, IL. 61821</h3>
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <a href="https://www.Youtube.com/christianalcantara/"><img src="youtube.png" alt="youtube" style="width:100px;height: 75px;border:0;"></a><p>VISIT MY YOUTUBE CHANNEL</p>
+      </div>
+      <div class="well">
+        <p><a href="https://Twitch.tv/dbgtx"> <img src="images/download.jpg" alt="Youtube" style="width:100px;height: 75px;border:0;"></a></p><p>Latest Gaming Available here!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+   
+   <p  align=" center;" style="  ;margin-top: 0px; margin-left: 450px; background-color: lightgrey; width: 800px; height: 150px;  border: 3px solid black; padding: 2px; font-size: 35px;">
+   <img src="logo.jpg" alt="donuts delights" style="width:150px;height:130px;border:0;"> Donut Delights inc. 2017</p>
+</footer>
+
+</body>
+</html>
